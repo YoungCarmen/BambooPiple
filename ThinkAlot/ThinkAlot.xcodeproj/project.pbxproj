@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5CB49F2084528200B503BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5CB49E2084528200B503BA /* AppDelegate.swift */; };
+		AD5CB4A12084528200B503BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5CB4A02084528200B503BA /* ViewController.swift */; };
+		AD5CB4A42084528200B503BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5CB4A22084528200B503BA /* Main.storyboard */; };
+		AD5CB4A62084528300B503BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5CB4A52084528300B503BA /* Assets.xcassets */; };
+		AD5CB4A92084528300B503BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5CB4A72084528300B503BA /* LaunchScreen.storyboard */; };
+		AD5CB4B42084528300B503BA /* ThinkAlotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5CB4B32084528300B503BA /* ThinkAlotTests.swift */; };
+		AD5CB4BF2084528300B503BA /* ThinkAlotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5CB4BE2084528300B503BA /* ThinkAlotUITests.swift */; };
+		AD5CB4D12084544A00B503BA /* NxtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5CB4D02084544A00B503BA /* NxtViewController.swift */; };
+		ADF566F02084636C00981236 /* BouncePresentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF566EF2084636C00981236 /* BouncePresentAnimation.swift */; };
+		ADF566F72084795C00981236 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF566F62084795C00981236 /* TableViewDataSource.swift */; };
+		ADF566F9208479FE00981236 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF566F8208479FE00981236 /* TableViewCell.swift */; };
+		ADF566FD20847C2A00981236 /* Idos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF566FC20847C2A00981236 /* Idos.swift */; };
+		ADF567682085A63600981236 /* AnimationFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF567672085A63600981236 /* AnimationFrame.swift */; };
+		ADF5676A2085D67700981236 /* circle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF567692085D67700981236 /* circle.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD5CB4B02084528300B503BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5CB4932084528200B503BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5CB49A2084528200B503BA;
+			remoteInfo = ThinkAlot;
+		};
+		AD5CB4BB2084528300B503BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5CB4932084528200B503BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5CB49A2084528200B503BA;
+			remoteInfo = ThinkAlot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD5CB49B2084528200B503BA /* ThinkAlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkAlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5CB49E2084528200B503BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD5CB4A02084528200B503BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD5CB4A32084528200B503BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD5CB4A52084528300B503BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD5CB4A82084528300B503BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD5CB4AA2084528300B503BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5CB4AF2084528300B503BA /* ThinkAlotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkAlotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5CB4B32084528300B503BA /* ThinkAlotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkAlotTests.swift; sourceTree = "<group>"; };
+		AD5CB4B52084528300B503BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5CB4BA2084528300B503BA /* ThinkAlotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkAlotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5CB4BE2084528300B503BA /* ThinkAlotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkAlotUITests.swift; sourceTree = "<group>"; };
+		AD5CB4C02084528300B503BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5CB4D02084544A00B503BA /* NxtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NxtViewController.swift; sourceTree = "<group>"; };
+		ADF566EF2084636C00981236 /* BouncePresentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncePresentAnimation.swift; sourceTree = "<group>"; };
+		ADF566F62084795C00981236 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		ADF566F8208479FE00981236 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		ADF566FC20847C2A00981236 /* Idos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idos.swift; sourceTree = "<group>"; };
+		ADF567672085A63600981236 /* AnimationFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFrame.swift; sourceTree = "<group>"; };
+		ADF567692085D67700981236 /* circle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = circle.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5CB4982084528200B503BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5CB4AC2084528300B503BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5CB4B72084528300B503BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5CB4922084528200B503BA = {
+			isa = PBXGroup;
+			children = (
+				AD5CB49D2084528200B503BA /* ThinkAlot */,
+				AD5CB4B22084528300B503BA /* ThinkAlotTests */,
+				AD5CB4BD2084528300B503BA /* ThinkAlotUITests */,
+				AD5CB49C2084528200B503BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5CB49C2084528200B503BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5CB49B2084528200B503BA /* ThinkAlot.app */,
+				AD5CB4AF2084528300B503BA /* ThinkAlotTests.xctest */,
+				AD5CB4BA2084528300B503BA /* ThinkAlotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5CB49D2084528200B503BA /* ThinkAlot */ = {
+			isa = PBXGroup;
+			children = (
+				ADF567662085A5C700981236 /* VIewHelper */,
+				ADF566F32084778B00981236 /* SourceHelper */,
+				AD5CB49E2084528200B503BA /* AppDelegate.swift */,
+				AD5CB4A02084528200B503BA /* ViewController.swift */,
+				AD5CB4D02084544A00B503BA /* NxtViewController.swift */,
+				ADF566EF2084636C00981236 /* BouncePresentAnimation.swift */,
+				AD5CB4A22084528200B503BA /* Main.storyboard */,
+				AD5CB4A52084528300B503BA /* Assets.xcassets */,
+				AD5CB4A72084528300B503BA /* LaunchScreen.storyboard */,
+				AD5CB4AA2084528300B503BA /* Info.plist */,
+			);
+			path = ThinkAlot;
+			sourceTree = "<group>";
+		};
+		AD5CB4B22084528300B503BA /* ThinkAlotTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD5CB4B32084528300B503BA /* ThinkAlotTests.swift */,
+				AD5CB4B52084528300B503BA /* Info.plist */,
+			);
+			path = ThinkAlotTests;
+			sourceTree = "<group>";
+		};
+		AD5CB4BD2084528300B503BA /* ThinkAlotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD5CB4BE2084528300B503BA /* ThinkAlotUITests.swift */,
+				AD5CB4C02084528300B503BA /* Info.plist */,
+			);
+			path = ThinkAlotUITests;
+			sourceTree = "<group>";
+		};
+		ADF566F32084778B00981236 /* SourceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ADF566F62084795C00981236 /* TableViewDataSource.swift */,
+				ADF566FC20847C2A00981236 /* Idos.swift */,
+				ADF567672085A63600981236 /* AnimationFrame.swift */,
+			);
+			path = SourceHelper;
+			sourceTree = "<group>";
+		};
+		ADF567662085A5C700981236 /* VIewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ADF566F8208479FE00981236 /* TableViewCell.swift */,
+				ADF567692085D67700981236 /* circle.ttf */,
+			);
+			path = VIewHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5CB49A2084528200B503BA /* ThinkAlot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5CB4C32084528300B503BA /* Build configuration list for PBXNativeTarget "ThinkAlot" */;
+			buildPhases = (
+				AD5CB4972084528200B503BA /* Sources */,
+				AD5CB4982084528200B503BA /* Frameworks */,
+				AD5CB4992084528200B503BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkAlot;
+			productName = ThinkAlot;
+			productReference = AD5CB49B2084528200B503BA /* ThinkAlot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD5CB4AE2084528300B503BA /* ThinkAlotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5CB4C62084528300B503BA /* Build configuration list for PBXNativeTarget "ThinkAlotTests" */;
+			buildPhases = (
+				AD5CB4AB2084528300B503BA /* Sources */,
+				AD5CB4AC2084528300B503BA /* Frameworks */,
+				AD5CB4AD2084528300B503BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5CB4B12084528300B503BA /* PBXTargetDependency */,
+			);
+			name = ThinkAlotTests;
+			productName = ThinkAlotTests;
+			productReference = AD5CB4AF2084528300B503BA /* ThinkAlotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD5CB4B92084528300B503BA /* ThinkAlotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5CB4C92084528300B503BA /* Build configuration list for PBXNativeTarget "ThinkAlotUITests" */;
+			buildPhases = (
+				AD5CB4B62084528300B503BA /* Sources */,
+				AD5CB4B72084528300B503BA /* Frameworks */,
+				AD5CB4B82084528300B503BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5CB4BC2084528300B503BA /* PBXTargetDependency */,
+			);
+			name = ThinkAlotUITests;
+			productName = ThinkAlotUITests;
+			productReference = AD5CB4BA2084528300B503BA /* ThinkAlotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5CB4932084528200B503BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "xiang zhuo";
+				TargetAttributes = {
+					AD5CB49A2084528200B503BA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AD5CB4AE2084528300B503BA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AD5CB49A2084528200B503BA;
+					};
+					AD5CB4B92084528300B503BA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AD5CB49A2084528200B503BA;
+					};
+				};
+			};
+			buildConfigurationList = AD5CB4962084528200B503BA /* Build configuration list for PBXProject "ThinkAlot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5CB4922084528200B503BA;
+			productRefGroup = AD5CB49C2084528200B503BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5CB49A2084528200B503BA /* ThinkAlot */,
+				AD5CB4AE2084528300B503BA /* ThinkAlotTests */,
+				AD5CB4B92084528300B503BA /* ThinkAlotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5CB4992084528200B503BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF5676A2085D67700981236 /* circle.ttf in Resources */,
+				AD5CB4A92084528300B503BA /* LaunchScreen.storyboard in Resources */,
+				AD5CB4A62084528300B503BA /* Assets.xcassets in Resources */,
+				AD5CB4A42084528200B503BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5CB4AD2084528300B503BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5CB4B82084528300B503BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5CB4972084528200B503BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF566F72084795C00981236 /* TableViewDataSource.swift in Sources */,
+				AD5CB4A12084528200B503BA /* ViewController.swift in Sources */,
+				ADF567682085A63600981236 /* AnimationFrame.swift in Sources */,
+				AD5CB49F2084528200B503BA /* AppDelegate.swift in Sources */,
+				ADF566FD20847C2A00981236 /* Idos.swift in Sources */,
+				ADF566F02084636C00981236 /* BouncePresentAnimation.swift in Sources */,
+				ADF566F9208479FE00981236 /* TableViewCell.swift in Sources */,
+				AD5CB4D12084544A00B503BA /* NxtViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5CB4AB2084528300B503BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5CB4B42084528300B503BA /* ThinkAlotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5CB4B62084528300B503BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5CB4BF2084528300B503BA /* ThinkAlotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD5CB4B12084528300B503BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5CB49A2084528200B503BA /* ThinkAlot */;
+			targetProxy = AD5CB4B02084528300B503BA /* PBXContainerItemProxy */;
+		};
+		AD5CB4BC2084528300B503BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5CB49A2084528200B503BA /* ThinkAlot */;
+			targetProxy = AD5CB4BB2084528300B503BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD5CB4A22084528200B503BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5CB4A32084528200B503BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD5CB4A72084528300B503BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5CB4A82084528300B503BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD5CB4C12084528300B503BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD5CB4C22084528300B503BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5CB4C42084528300B503BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThinkAlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD5CB4C52084528300B503BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThinkAlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD5CB4C72084528300B503BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThinkAlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkAlot.app/ThinkAlot";
+			};
+			name = Debug;
+		};
+		AD5CB4C82084528300B503BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThinkAlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkAlot.app/ThinkAlot";
+			};
+			name = Release;
+		};
+		AD5CB4CA2084528300B503BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThinkAlotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThinkAlot;
+			};
+			name = Debug;
+		};
+		AD5CB4CB2084528300B503BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThinkAlotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThinkAlot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5CB4962084528200B503BA /* Build configuration list for PBXProject "ThinkAlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5CB4C12084528300B503BA /* Debug */,
+				AD5CB4C22084528300B503BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5CB4C32084528300B503BA /* Build configuration list for PBXNativeTarget "ThinkAlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5CB4C42084528300B503BA /* Debug */,
+				AD5CB4C52084528300B503BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5CB4C62084528300B503BA /* Build configuration list for PBXNativeTarget "ThinkAlotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5CB4C72084528300B503BA /* Debug */,
+				AD5CB4C82084528300B503BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5CB4C92084528300B503BA /* Build configuration list for PBXNativeTarget "ThinkAlotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5CB4CA2084528300B503BA /* Debug */,
+				AD5CB4CB2084528300B503BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5CB4932084528200B503BA /* Project object */;
+}
