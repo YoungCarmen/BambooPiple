@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156AE5574A844BEB7296A3B4 /* Pods_ThinkAlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541619456B677853BAB2B06C /* Pods_ThinkAlot.framework */; };
 		AD5CB49F2084528200B503BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5CB49E2084528200B503BA /* AppDelegate.swift */; };
 		AD5CB4A12084528200B503BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5CB4A02084528200B503BA /* ViewController.swift */; };
 		AD5CB4A42084528200B503BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5CB4A22084528200B503BA /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A713210312365B99EB039F4 /* Pods-ThinkAlot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkAlot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkAlot/Pods-ThinkAlot.debug.xcconfig"; sourceTree = "<group>"; };
+		541619456B677853BAB2B06C /* Pods_ThinkAlot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkAlot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5CB49B2084528200B503BA /* ThinkAlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkAlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5CB49E2084528200B503BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5CB4A02084528200B503BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		ADF566FC20847C2A00981236 /* Idos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idos.swift; sourceTree = "<group>"; };
 		ADF567672085A63600981236 /* AnimationFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFrame.swift; sourceTree = "<group>"; };
 		ADF567692085D67700981236 /* circle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = circle.ttf; sourceTree = "<group>"; };
+		D3103BCE07AA33A8821580A1 /* Pods-ThinkAlot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkAlot.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkAlot/Pods-ThinkAlot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156AE5574A844BEB7296A3B4 /* Pods_ThinkAlot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EAF2AA4F690B924BB7B2B4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A713210312365B99EB039F4 /* Pods-ThinkAlot.debug.xcconfig */,
+				D3103BCE07AA33A8821580A1 /* Pods-ThinkAlot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD5CB4922084528200B503BA = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +109,8 @@
 				AD5CB4B22084528300B503BA /* ThinkAlotTests */,
 				AD5CB4BD2084528300B503BA /* ThinkAlotUITests */,
 				AD5CB49C2084528200B503BA /* Products */,
+				2EAF2AA4F690B924BB7B2B4B /* Pods */,
+				B5508E2EA671C7228BCF6F79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +178,14 @@
 			path = VIewHelper;
 			sourceTree = "<group>";
 		};
+		B5508E2EA671C7228BCF6F79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				541619456B677853BAB2B06C /* Pods_ThinkAlot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5CB4C32084528300B503BA /* Build configuration list for PBXNativeTarget "ThinkAlot" */;
 			buildPhases = (
+				46D71179D6B16387D3F889BB /* [CP] Check Pods Manifest.lock */,
 				AD5CB4972084528200B503BA /* Sources */,
 				AD5CB4982084528200B503BA /* Frameworks */,
 				AD5CB4992084528200B503BA /* Resources */,
+				14590C088F5925E89260B5FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +314,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14590C088F5925E89260B5FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThinkAlot/Pods-ThinkAlot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkAlot/Pods-ThinkAlot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D71179D6B16387D3F889BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThinkAlot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD5CB4972084528200B503BA /* Sources */ = {
@@ -472,14 +537,12 @@
 		};
 		AD5CB4C42084528300B503BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A713210312365B99EB039F4 /* Pods-ThinkAlot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThinkAlot/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -489,14 +552,12 @@
 		};
 		AD5CB4C52084528300B503BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3103BCE07AA33A8821580A1 /* Pods-ThinkAlot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThinkAlot/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -511,11 +572,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThinkAlotTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -531,11 +588,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThinkAlotTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -550,11 +603,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThinkAlotUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlotUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -569,11 +618,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThinkAlotUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peanut.ThinkAlotUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
